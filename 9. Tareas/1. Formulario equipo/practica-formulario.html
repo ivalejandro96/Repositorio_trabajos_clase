@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+  
+<form >
+    <h1>La mejor forma de aprender inglés es con English Fast</h1>
+        <p>¡Agenda una prueba!
+        Antes de agendar tu clase prueba cuentanos más de ti</p>
+    <label for="nombre completo">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre completo" placeholder="nombre(s) y apellido(s)" required>
+    <br>
+    <br>
+    <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder=" @ejemplo.com" required>
+    <br>
+    <br>
+    <label for="celular">Teléfono celular:</label>
+        <select name="celular" id="celular">
+            <option value="México">+52</option>
+            <option value="Puerto Rico">+1939</option>
+        </select>
+        <input type="tel" id="celular" name="celular" placeholder="número de telefóno" required> 
+    <br>
+    <br>
+    <label for="edad">Edad:</label><br><br>
+        <select name="edad" id="edad" required>
+            <option value="" disabled selected>Cuál es tu rango de edad</option>
+            <option value="menor">Menor de 18</option>
+            <option value="adolescente">De 18 a 25 años</option>
+            <option value="adulto chiquito">De 26 a 35 años</option>
+          
+            <option value="adulto">De 36 a 50 años</option>
+            <option value="adulto mayor">Mayor a 50 años</option>
+        </select>
+    <br>
+    <br>
+    <label for="fecha">Selecciona la fecha:</label><br><br>
+    <input type="date" id="fecha" name="fecha" required>
+    <br>
+    <br>
+    <label for="nivel">¿Cuál es tu nivel de inglés?</label><br><br>
+        <select name="nivel" id="nivel" required>
+            <option value="">Nivel</option>
+            <option value="básico">A1, A2</option>
+            <option value="intermedio">B1, B2</option>
+            <option value="avanzado">C1, C2</option>
+        </select>
+    <br>
+    <br>
+    <input type="checkbox" name="aviso" id="aviso" required>
+        <label for="aviso">He leído y acepto el aviso de privacidad sobre el procesamiento de mis datos personales que llevará EnglishFast</label>
+    <br>
+    <br>
+    <button class="submit" type="submit" >Enviar</button>
+    
+</form>
+</body>
+</html>

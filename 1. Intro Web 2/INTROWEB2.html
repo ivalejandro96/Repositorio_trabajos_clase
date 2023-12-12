@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!--La declaración que representa el tipo de documento y le ayuda al navegador a mostrar correctamente las páginas web.-->
+<!--Para indicar que aquí habra un comentario-->
+<!--CTRL + S: para guardar cambios
+ALT + Z: ajustar el texto-->
+<html lang="en">
+    <!--El elemento html: Encierra todo el contenido de la página entera y aveces se le conoce como elemento raíz-->
+<head>
+    <!--Actua como un contenedor de todod aquello que quieres incluir en la página HTML, que no es visible para los usuarios de la página. Pueden incluir palabras clave, una descripción, código CSS para dar estilo al contenedor al contenido-->
+    <meta charset="UTF-8">
+    <!--Esta etiqueta especifica la codificación de caracteres utilizando en la página web. En este caso, se establece la codificación de caracteres estandar que admite una amplia variedad de idiomas y caracteres especiales.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Esta etiqueta se utiliza para establecer el tamaño, la escala inicial de la página web en dispositivos móviles. Esto asegura que la página se adapte bien a diferentes tamaños en dispositivos. -->
+    <title>Document</title>
+    <!--Título que aparecera en el navegador. -->
+</head>
+
+<body>
+    <!--Van todos los elementos del sitio
+    Encierra todo el contenido que deseas mostrar a los usuarios que visiten tu página, ya sea texto, imagen, -->
+    <p></p><!--Para indicar que aquí escribiremos párrafo-->
+    <P>¿Por qué entre a generation?
+        Porque ya me causaba entres, tristeza estar estudiando contaduría y decidí cambiarme de carrera, ya estaba practicando y cuando el sistema nacional de empleo (SNE) me envio la convocatoria de generation para desarollador java full stack jr dije que era mi oportunidad
+    </P>
+    <!--Para identificar que aquí escribimos un párrafo-->
+    <!--Etiquetas de cabecera (h1 al h6)-->
+
+    <h1>Ejemplo título</h1>
+    <h2>Ejemplo título</h2>
+    <h3>Ejemplo título</h3>
+    <h4>Ejemplo título</h4>
+    <h5>Ejemplo título</h5>
+    <h6>Ejemplo título</h6>
+    
+    <br> <!--El elemento HTML <br> define un salto de línea sin comenzar un nuevo párrafo.-->
+    
+    <hr><!--La etiqueta <hr> define una ruptura temática en una página HTML y con mayor frecuencia, se muestra como una regla horizontal. Se usa para separar el contenido (o definir un cambio) en una página HTML-->
+    
+    <!--Atributos-->
+        <!--Atributos globales: Son aquellos que se aplicar a todos los elementos del documento, y no dependen de la etiqueta. Entre los atributos globlales más importantes están:
+        
+            - Class: Se usa para especificar una clase CSS que se aplicará a un elemento. Por ejemplo <div class="clase1 clase2">.
+            
+            - id: Se usa para especificar un identificador unico para un elemento (el valor debe ser único dentro del documento HTML).
+    
+            - Style: Se usa para especificar una propiedad CSS que se aplicará a un elemento. El atributo HTML style se usa para agregar estilos a un elemento, como color, fuente, tamaño y más.-->
+    
+    <h3>Atributos HTML</h3>
+    <p align="justify" style="color: cornflowerblue;">Los atributos HTML proporcionan información adicional sobre elementos
+        <br>
+        Todo los elementos HTML pueden tener atributos y estos proporcionan información adicional sobre los elementos. Los atributos siempren se especifican en la etiqueta de inicio, generalmente vienen en pares de nombre
+    </p>
+    <p style="color: aquamarine;">Mira este enlace</p>
+    <br>
+    <hr>
+    <!--Etiquetas de párrafos de texto
+    Nos sirven para crear párrafos dentro de nuestro documentos.
+    Las etiquetas de párrafo tienen una serie de atributos que nos permiten difinir el tamaño, color, estilo, etc.
+    <p align="center">
+    <p align="right">
+    <p align="left">
+    <p align="justify">-->
+    
+        <!--Etiquetas Semanticas: fragmentos de texto
+        Son etiquetas HTML simples para seleccionar un fragmento de texto y dotarlo de un significado semántico especial. Lo principal es entender que no se hace sólo por mera intención visual, sino porque se le quiere dar un significado semántico, y además, quizás también por una cuestión visual-->
+    
+    <p align="center" style="background-color: chocolate; color: rgb(184, 11, 83);">
+        <b><em>QUE HACEMOS</em></b><!--Etiqueta em, es para texto enfatizado-->
+        <br>
+    Somos una Fundacion internacional con <u>presencia en 16 paises</u><!--La etiqueta u da formato de subrayado--> y nuestro objetivos es lograr que cada joven tenga una trayectoria personal y profesional, en cualquier parte del mundo.
+    <del>Te ofrecemos programas de capracion que transformaran fundamentalmente tu vida</del><!--Etiqueta del es para tachar texto--> y te ayudaran a encontrar puestos bien pagados y una carrera apasionante. Mediante nuestros cursos te enseñaremos las habilidades blandas y técnicas que el mercado laboral está necesitando. 
+    </p>
+    <br>
+    <hr>
+
+    <!--Etiquetas de enlace.-->
+    <!--Los enlaces nos permiten la navegacion por medio de hipervinculos (links) que realizan una conexion y referencian otros archivos o paginas web dentro de la misma aplicacion o externa a la misma.
+
+    En HTML 5 se pueden definir los enlaces con la etiqueta a que significa "anchor" o ancla. Esta etiqueta tiene varios atributos:
+
+    - href: nos permite definir la ubicación de la página a la que nos vamos a enlazar. Este atributo puede ser una URL (externa) o un archivo dentro de nuestra carpeta del proyecto (assets). La dirección va entre comillas.El atributo href. La <a>etiqueta define un hipervínculo. El href-atributo especifica la URL de la página a la que va el enlace.
+
+    - target: Define la ventana de destino, que puede ser una ventana nueva o la misma ventana.
+        - _blank: abre el enlace en una nueva ventana.
+        - _self: abre el enlace en la misma ventana. Este es el valor por defecto.
+        Ya que sabemos como hacer referencias a paginas, es importante conocer las distintas rutas de enlace y sus tipos.
+
+    - Rutas absolutas: Son aquellas que definien la ubicacion completa de un archivo o pagina web, por ejemplo: http://www.google.com.
+
+    - Rutas relativas: Son las que se definen a partir de la posicion en la estructura local de la pagina que lo esta refiriendo,es decir, solo indica el orden de directorios, por ejemplo: /assets/img/perritoplayero.jpg.
+-->
+<!--La etiqueta <a> nos habla de anclaje nos permite hacer hipervinculos-->
+<h4>Etiqueta a </h4>
+<a href="https://mexico.generation.org/" target="_blank">Generation</a>
+<br>
+<a href="mailto: lh.alex.96@gmail.com">Enviar correo</a>
+<br>
+<hr>
+<!--Etiqueta de imagen: img
+
+La etiqueta imagen nos permite agregar una imagen en un documento web. En formatos mas usados: jpg, png, gif.
+-src (source) define la ubicacion del archivo ya sea externo o interno
+-wigth define ando de banda
+-heigth define el alto de nuestra imagen 
+-alt podemos agregamos una descripcion a la imagen
+-->
+<img src="Assent/fiona.jpg" alt="Fiona">
+<br>
+<hr>
+<!--Listas ordenadas: Listas que tienen un orden (numeros o letras)
+    1.- Tacos al pastor
+    2 - Tacos de suadero
+    3.- Tacos de chicharron
+
+    a.- Tacos al pastor
+    b - Tacos de suadero
+    c.- Tacos de chicharron
+
+Listas desordenadas: Listas que NO tienen un orden (bullets o figuritas)
+
+    - Tacos al pastor
+    - Tacos de suadero
+    - Tacos de chicharron
+
+    <ol> Ordered list o lista ordenada </ol>
+    <li> List item o elemento de la lista </li>
+    <ul> desordenada-->
+
+<h3>Lista ordenadas</h3>
+<ol>Pasos para preparar una limonada
+<li>Reune los limones, el agua y el azucar</li>
+<li>Se agrega azucar a la jarra de agua, resolver hasta disolver el azucar</li>
+<li>Cortar los limones y exprimirlos en el agua</li>
+<li>servir y disfrutar</li>
+</ol>
+
+<br>
+
+<h3>Listas desordenadas</h3>
+<ul> Lista de utiles
+    <li>Mochila</li>
+    <li>Cuadernos</li>
+    <li>Lapicera</li>
+    <li>Tijeras</li>
+    <li>Atlas que no cabe ningun lado</li>
+</ul>
+<br>
+<hr>
+<!--Etiqueta Div-->
+<!--La <div>etiqueta define una división o una sección en un documento HTML.
+    La <div>etiqueta se utiliza como contenedor de elementos HTML, que luego se diseñan con CSS o se manipulan con JavaScript.
+    
+    La <div>etiqueta se diseña fácilmente usando el atributo class o id.
+    
+    ¡Se puede poner cualquier tipo de contenido dentro de la <div> etiqueta! 
+    
+    Nota: De forma predeterminada, los navegadores siempre colocan un salto de línea antes y después del <div>elemento.
+
+    Todos los atributos que se agreguen al div se aplicarán a todos los elementos. -->
+
+<h2>Etiqueta div</h2>
+<div style="background-color: blueviolet; border: 1px solid royalblue;">
+    <h4>Soy un encabezado dentro de un div</h4>
+    <p>Soy un parrafo dentro del div</p>
+</div>
+    <p>Soy un parrafo fuera del div</p>
+<br>
+<hr>
+<!--La etiqueta <span> es un contenedor en línea que se utiliza para marcar una parte de un texto o una parte de un documento.
+
+    La etiqueta <span> se diseña fácilmente con CSS o se manipula con JavaScript usando el atributo class o id.
+    
+    La etiqueta <span> es muy parecida al elemento <div> , pero <div> es un elemento a nivel de bloque y <span>es un elemento en línea.-->
+
+<h3>El elemento span</h3>
+<p>
+    El elemento span es utilizado para agrupar texto u otros componentes HTML en un solo contenedor.
+    En la CH35, tomamos <span style="color: deeppink;">cafe en una taza de porcelana</span> <span style="background-color: lightskyblue; font-family: Georgia, 'Times New Roman', Times, serif;"> y comemos pan con nutella.</span> 
+</p>
+<br>
+<hr>
+<h1>Musica</h1>
+<p style="color: crimson; front-family: " > La música es muy compleja y hay tantos generos que a veces no sabemos que podemos escuchar. <a href="https://es.wikipedia.org/wiki/M%C3%BAsica" style="background-color: blueviolet;">Conoce lo que dice la web</a></p>
+
+<ul> Algunos géneros de música son
+    <li style="background-color: chartreuse;">Reggaeton</li>
+    <li>Rock</li>
+    <li>Indie</li>
+    <li style="background-color: darkorange;">Jazz</li>
+    <li>Pop</li>
+    <li>Corridos tumbados</li>
+</ul>
+
+
+</body>
+</html>
+<!--Da cierre del documento HTML que iniciamos en el DOCTYPE-->

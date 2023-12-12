@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML AVANZADO</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <H1>Ejemplo de tabla</H1>
+        <!--Las tablas son un conjunto estructurado de datos compuesto por filas y columnas.-->
+    <caption>Tabla nombres</caption>
+    <br>
+    <br>
+        <!--Caption representa un titulo descriptivo de una tabla-->
+     
+    <table border="1"> 
+        <!--Crea el elemento de tabla, con el atributo <border> le añadimos bordes a nuestra tabla-->
+        <tr><!--Representa una fila-->
+            <th>Encabezado</th> 
+                <!--Representa las celdas de encabezado-->
+            <th>Encabezado</th>
+        </tr>      
+        <tr>
+            <td>Nombre 1</td> 
+                <!--Representa la primera celda de la primera fila-->
+            <td>Apellido 1</td> 
+                <!--Representa la segunda celda de la primera-->
+        </tr>    
+        <tr>
+            <td>Alejandro</td>
+            <td>López</td>
+        </tr>
+        <tr>
+            <td>Diana</td>
+            <td>Alvarez</td>
+        </tr>
+    </table>
+    <br>
+
+    <table border="1">
+        <thead><!--Esta etiqueta agrupa los elementos de la cabecera en la tabla-->
+            <tr>
+                <th colspan="3">Encabezado tabla</th> <!--Permite expandir las celdas de datos o de encabezados al número de columnas que deseamos que ocupe-->
+            </tr>
+        <tbody><!--Esta etiqueta eagrupa elementos de contenido en la tabla-->
+            <tr>
+                <td>El cuerpo de la tabla</td>
+                <td>con 2 columnas</td>
+                <td>Columna</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Pie</th>
+            </tr>
+        </tfoot>    
+        </thead>
+    </table>
+    
+    <br>
+
+    <h1 id="#anclaje">Anclaje: Interno</h1>
+        <a href="#seccion1">¿Adoptar una mascota? Tome en cuenta sus gastos</a>
+    <br>
+        <a href="#seccion2">Antes de llevar a un peludito a casa, debe tener en mente que es una responsabilidad monetaria a largo plazo y que ellos se merecen que les demos una vida digna</a>
+    <br>
+        <a href="#seccion3">¿Cuánto cuesta mantener una mascota?</a>
+    <br>
+        <a href="#seccion4"></a>
+    
+    <br>
+
+    <h2 id="#seccion1">¿Adoptar una mascota? Tome en cuenta sus gastos</h2>
+    
+        <img src="https://www.eleconomista.com.mx/__export/1650592718322/sites/eleconomista/img/2022/04/21/grafico_eleconomista_mexico_finanzas_personales_adopcion_de_mascotas_consejos.png_1947833983.png" alt="Referencia" width="300px">
+
+    <h4 id="seccion2">Antes de llevar a un peludito a casa, debe tener en mente que es una responsabilidad monetaria a largo plazo y que ellos se merecen que les demos una vida digna.</h4>
+        <p>Las organizaciones protectoras de animales siempre recomiendan tomar en cuenta que el adoptar una mascota representa una responsabilidad por muchos años, pero lo que también debemos tomar en cuenta antes de adoptar es el hecho de que esta responsabilidad también representa un gasto.</p>
+    
+    <h3 id="seccion3">¿Cuánto cuesta mantener una mascota?</h3>
+        <p>El gasto de una mascota dependerá de muchos factores, principalmente la talla del animalito, ya que un perro de talla pequeña no come ni tiene las mismas necesidades que uno de talla grande, por ello antes de adoptar debemos determinar a qué tipo de mascota podemos darle una vida digna.</p>
+    
+    <h1>Anclaje externo</h1>
+    <h6>Refenciar un articulo dentro de otro</h6>
+        <a href=""></a> <!--Estos anclajes enlazan a una página web diferente. El valor del atributo href es la URL completa del sitio web de destino y el identificador de la sección.-->
+    
+    <h5>Anclar número telefonico</h5>
+        <a href=""></a>
+    
+    <h5>Anclaje de WhatsApp</h5>
+        <a href=""target="_black">Envianos mensaje</a><!--Estos enlacees abren whatsapp en un navegador o -->
+    
+    <h5>Anclaje mapa</h5>
+        <a href=""target="_black">Ver ubicación del mapa</a>
+        <!--Estos enlaces nos permiten enlazar ubicaciones especificas en servicios de mapa, ya sea en google, para que los usuarios puedan tener la referencia-->
+
+    <h5>Anclaje de redes sociales</h5>
+        <a href=""></a>
+
+
+    <h1>Formulario y tipos de entrada</h1>
+        <form action="/procesador_formulario" method="post"></form>
+            <!--La etiqueta form, se utiliza para crear un formmulario en HTML que permite a los usuarios ingresar información
+            Action especifica a la URL a la que se enviaran los datos del formulario cuando este se envíe
+            Method define el metodo HTTP que se utilizara para enviar datos (puede ser "get" o "post")-->
+    <br>
+    <h4>Etiqueta input</h4>
+            <!--La etiqueta input se utiliza para crear campos de entrada en un formulario-->
+        <input type="text" name="Usuario" placeholder="Nombre">
+        <input type="text" name="Contraseña" placeholder="Contraseña">
+            <!--type: Define el tipo de entrada (texto, contraseña, correo electrónico, etc.).
+            name: Es el nombre del campo, utilizado para identificar el dato cuando se envía el formulario.
+            placeholder: Proporciona un texto de ejemplo dentro del campo de entrada.-->
+
+    <h4>Etiqueta label</h4>
+        <!--La etiqueta label se utiliza para etiquetar un elemento de entrada en un formulario, lo que mejora la accesibilidad y la experiencia del usurario-->
+
+        <label for="Usuario">Nombre: 
+                <!--For es un atributo que se asocia con el ID de un elemento de entrada para identificar a que campo se refiere-->
+            <input type="text" name="Usuario" name="usuario">    
+        </label>
+
+    <h4>Etiqueta button</h4>
+            <!--Esta etiqueta se utiliza para crear botones en un formulario que los usuarios puedan usar para hacer clic y enviar informacion-->
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetear</button>
+            <!--Type define el tipo de botón-->
+    <h4>Área de texto</h4>
+        <textarea name="Comentario" id="comentario" cols="50" rows="10" placeholder="Coloque sus comentarios"></textarea>
+    <h4>Número</h4>
+    <!--Este tipo de entrada crea un campo de entrada para números-->
+        <input type="number" name="number" placeholder="Elija su número">
+
+    <h4>Corre electrónico</h4>
+        <input type="email" name="correo" placeholder="Ingresar su correo electrónico">
+
+
+
+
+        
+    <hr>
+    <h1>El top 8 de errores más comunes es los nombres de los little devs</h1>
+    <caption>Tabla top errores</caption>
+    <br>
+    <br>
+    <table>
+    <tr>
+        <th>TOP</th>
+        <th>Erroneo</th>
+        <th>Correcto</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Gustavo</td>
+        <td>Gonzalo</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Rangel</td>
+        <td>Rosajel</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Ana Laura</td>
+        <td>Diana Laura</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Lalo</td>
+        <td>Aldo</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Florencia</td>
+        <td>Lorenzana</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Marcos</td>
+        <td>Marco</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Beltrán</td>
+        <td>Bernal</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Iván (si es su nombre pero prefiere el otro)</td>
+        <td>Alejandro</td>
+    </tr>
+    </table>
+
+</body>
+</html>
