@@ -1,8 +1,8 @@
 :root{
-   
+
     
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif; 
+
 
 
 }
@@ -22,12 +22,12 @@
     background: linear-gradient(90deg, rgba(180, 146, 253, 0.30) 0%, rgba(173, 78, 245, 0.95) 100%);
 }
 .rectanguloarriba{
-    width: 407px; 
-    height: 505px; 
-    left: 970px; 
-    top: 259px; 
+    width: 410px; 
+    height: 500px; 
+    left: 950px; 
+    top: 250px; 
     position: absolute;
-    background-image: url(../ASSETS/developer_male-removebg-preview.png);
+    background-image: url(../assets/Image20231206171205.png);
 }
 .cuerpoform{
     width: 452px; 
