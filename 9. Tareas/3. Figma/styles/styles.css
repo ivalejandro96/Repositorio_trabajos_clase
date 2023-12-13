@@ -30,18 +30,18 @@
     background-image: url(../assets/Image20231206171205.png);
 }
 .cuerpoform{
-    width: 452px; 
-    height: 603px; 
-    left: 216px; 
-    top: 217px; 
+    width: 450px; 
+    height: 600px; 
+    left: 215px; 
+    top: 210px; 
     position: absolute; 
     background: rgba(217, 217, 217, 0);
 }
 .exteriorform{
-    width: 567px; 
-    height: 734px; 
-    left: 153px; 
-    top: 144px; 
+    width: 550px; 
+    height: 735px; 
+    left: 150px; 
+    top: 145px; 
     position: absolute; 
     opacity: 0.70; 
     background: white; 
@@ -49,9 +49,9 @@
 }
 .crearcuenta{
     width: 400px; 
-    height: 57px; 
-    left: 216px; 
-    top: 217px; 
+    height: 55px; 
+    left: 210px; 
+    top: 210px; 
     position: absolute; 
     color: #1D1D1D; 
     font-size: 36px;
@@ -63,38 +63,38 @@
     
 .imggoogle{
     width: 40px; 
-    height: 41px; 
-    left: 232px; 
-    top: 311px; 
+    height: 40x; 
+    left: 230px; 
+    top: 310px; 
     position: absolute;
 }
 .textogoogle{
     width: 140px; 
-    height: 27px; 
-    left: 281px; 
-    top: 318px; 
+    height: 25px; 
+    left: 280px; 
+    top: 310px; 
     position: absolute; 
     color: #1D1D1D; 
-    font-size: 22px; 
+    font-size: 20px; 
     font-family: Montserrat; 
     font-weight: 500; 
     word-wrap: break-word;
 }
 .imgapple{
     width: 40px; 
-    height: 47px; 
+    height: 45px; 
     left: 485px; 
-    top: 304px; 
+    top: 300px; 
     position: absolute;
 }
 .textoapple{
     width: 205px; 
-    height: 32px; 
+    height: 30px; 
     left: 535px; 
-    top: 318px; 
+    top: 320px; 
     position: absolute; 
     color: #1D1D1D; 
-    font-size: 22px; 
+    font-size: 20px; 
     font-family: Montserrat; 
     font-weight: 500; 
     word-wrap: break-word;
@@ -102,8 +102,8 @@
 .googlebutton{
     width: 205px;
     height: 70px; 
-    left: 216px; 
-    top: 296px; 
+    left: 215px; 
+    top: 290px; 
     position: absolute; 
     background: rgba(244, 241, 255, 0);
      border-radius: 12px; 
@@ -112,8 +112,8 @@
 .applebutton{
     width: 205px; 
     height: 70px; 
-    left: 463px; 
-    top: 296px; 
+    left: 460px; 
+    top: 295px; 
     position: absolute; 
     background: rgba(244, 241, 255, 0); 
     border-radius: 12px;
@@ -121,9 +121,9 @@
 }
 .correo{
     width: 205px; 
-    height: 32px; 
-    left: 216px; 
-    top: 426px; 
+    height: 30px; 
+    left: 215px; 
+    top: 425px; 
     position: absolute; 
     color: #1D1D1D; 
     font-size: 20px; 
@@ -132,20 +132,20 @@
     word-wrap: break-word;
 }
 .correoinput{
-    width: 452px; 
-    height: 67px; 
-    left: 216px; 
-    top: 458px; 
+    width: 450px; 
+    height: 65px; 
+    left: 215px; 
+    top: 450px; 
     position: absolute; 
     background: rgba(244, 241, 255, 0); 
     border-radius: 12px; 
     border: 1px #1D1D1D solid;
 }
 .placeholdercorreo{
-    width: 199px;
-     height: 37px; 
-     left: 243px; 
-     top: 473px; 
+    width: 200px;
+     height: 35px; 
+     left: 240px; 
+     top: 470px; 
      position: absolute; 
      color: #6667B0; 
      font-size: 20px; 
@@ -155,9 +155,9 @@
 }
 .contraseña{
     width: 205px; 
-    height: 32px; 
-    left: 216px; 
-    top: 547px; 
+    height: 30px; 
+    left: 215px; 
+    top: 545px; 
     position: absolute; 
     color: #1D1D1D; 
     font-size: 20px; 
@@ -166,20 +166,20 @@
     word-wrap: break-word;
 }
 .contraseñainput{
-    width: 452px; 
-    height: 67px; 
-    left: 216px; 
-    top: 579px; 
+    width: 450px; 
+    height: 65px; 
+    left: 215px; 
+    top: 580px; 
     position: absolute; 
     background: rgba(244, 241, 255, 0); 
     border-radius: 12px; 
     border: 1px #1D1D1D solid;
 }
 .placeholdercontraseña{
-    width: 221px; 
+    width: 222px; 
     height: 45px; 
-    left: 243px; 
-    top: 591px; 
+    left: 240px; 
+    top: 590px; 
     position: absolute; 
     color: #6667B0; 
     font-size: 20px; 
@@ -188,18 +188,18 @@
     word-wrap: break-word;
 }
 .loginbutton{
-    width: 452px; 
-    height: 67px; 
-    left: 216px; 
-    top: 697px; 
+    width: 450px; 
+    height: 65px; 
+    left: 215px; 
+    top: 695px; 
     position: absolute; 
     background: #6B43FF; 
     border-radius: 12px;
 }
 .logintext{
-    width: 381px; 
-    left: 252px; 
-    top: 701px; 
+    width: 380px; 
+    left: 250px; 
+    top: 700px; 
     position: absolute; 
     text-align: center; color: #F4F1FF; 
     font-size: 35px; 
@@ -208,8 +208,8 @@
     word-wrap: break-word;
 }
 .alreadyhave{
-    left: 353px; 
-    top: 773px; 
+    left: 350px; 
+    top: 770px; 
     position: absolute; 
     color: #663dfa; 
     font-size: 22px; 
@@ -219,23 +219,23 @@
 .linea1{
     width: 205px; 
     height: 0px; 
-    left: 216px; 
-    top: 391px; 
+    left: 215px; 
+    top: 390px; 
     position: absolute; 
     border: 1px #6667B0 solid;
 }
 .linea2{
     width: 205px; 
     height: 0px; 
-    left: 463px; 
-    top: 391px; 
+    left: 460px; 
+    top: 390px; 
     position: absolute; 
     border: 1px #6667B0 solid;
 }
 .or{
-    width: 54px; 
-    height: 44px; 
-    left: 431px; 
+    width: 55px; 
+    height: 45px; 
+    left: 430px; 
     top: 375px; 
     position: absolute; 
     color: black; 
